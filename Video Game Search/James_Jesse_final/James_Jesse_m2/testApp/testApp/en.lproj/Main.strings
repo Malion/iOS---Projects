@@ -1,0 +1,69 @@
+
+/* Class = "IBUINavigationItem"; title = "Statistics"; ObjectID = "0D1-Zt-rIX"; */
+"0D1-Zt-rIX.title" = "Statistics";
+
+/* Class = "IBUILabel"; text = "Platform"; ObjectID = "2aQ-Fa-gR6"; */
+"2aQ-Fa-gR6.text" = "Platform";
+
+/* Class = "IBUINavigationItem"; title = "Game Search"; ObjectID = "8xC-as-xyy"; */
+"8xC-as-xyy.title" = "Game Search";
+
+/* Class = "IBUILabel"; text = "Year"; ObjectID = "Bha-ef-iW4"; */
+"Bha-ef-iW4.text" = "Year";
+
+/* Class = "IBUITabBarItem"; title = "Home"; ObjectID = "Bpq-AA-gkl"; */
+"Bpq-AA-gkl.title" = "Home";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "EA2-QB-9gz"; */
+"EA2-QB-9gz.normalTitle" = "Back";
+
+/* Class = "IBUILabel"; text = "Game Name"; ObjectID = "GL6-zg-Mp0"; */
+"GL6-zg-Mp0.text" = "Game Name";
+
+/* Class = "IBUINavigationItem"; title = "My List"; ObjectID = "Hbe-YQ-Lfv"; */
+"Hbe-YQ-Lfv.title" = "My List";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "Ikp-Si-JWn"; */
+"Ikp-Si-JWn.title" = "Save";
+
+/* Class = "IBUIBarButtonItem"; title = "Refresh"; ObjectID = "MeH-Wd-RsV"; */
+"MeH-Wd-RsV.title" = "Refresh";
+
+/* Class = "IBUIBarButtonItem"; title = "Search"; ObjectID = "Obc-Dy-3Tw"; */
+"Obc-Dy-3Tw.title" = "Search";
+
+/* Class = "IBUITabBarItem"; title = "Statistics"; ObjectID = "PTh-DD-c5r"; */
+"PTh-DD-c5r.title" = "Statistics";
+
+/* Class = "IBUILabel"; text = "Rating:"; ObjectID = "SZZ-lW-8Yf"; */
+"SZZ-lW-8Yf.text" = "Rating:";
+
+/* Class = "IBUILabel"; text = "Add to My List?"; ObjectID = "Sv3-Sz-QaA"; */
+"Sv3-Sz-QaA.text" = "Add to My List?";
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "WWP-ny-cvG"; */
+"WWP-ny-cvG.title" = "Edit";
+
+/* Class = "IBUILabel"; text = "Game Name"; ObjectID = "XUR-VU-fWc"; */
+"XUR-VU-fWc.text" = "Game Name";
+
+/* Class = "IBUILabel"; text = "games#"; ObjectID = "aQT-mh-Y4V"; */
+"aQT-mh-Y4V.text" = "games#";
+
+/* Class = "IBUITextView"; text = "No description is available at this time."; ObjectID = "l1b-Ia-bsn"; */
+"l1b-Ia-bsn.text" = "No description is available at this time.";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "mDM-0H-3ht"; */
+"mDM-0H-3ht.text" = "0";
+
+/* Class = "IBUIViewController"; title = "Game Detail View Controller"; ObjectID = "mcs-q3-HRA"; */
+"mcs-q3-HRA.title" = "Game Detail View Controller";
+
+/* Class = "IBUILabel"; text = "Game Name"; ObjectID = "nys-Jh-OJA"; */
+"nys-Jh-OJA.text" = "Game Name";
+
+/* Class = "IBUILabel"; text = "#"; ObjectID = "rwg-CM-Jth"; */
+"rwg-CM-Jth.text" = "#";
+
+/* Class = "IBUITabBarItem"; title = "My List"; ObjectID = "zQB-QP-Cc2"; */
+"zQB-QP-Cc2.title" = "My List";

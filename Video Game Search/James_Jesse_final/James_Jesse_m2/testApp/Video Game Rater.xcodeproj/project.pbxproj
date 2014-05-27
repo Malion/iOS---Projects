@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567D6F2E18B42DF80073A4FF /* MyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 567D6F2D18B42DF80073A4FF /* MyListCell.m */; };
+		567D6F3118B5AA330073A4FF /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F2F18B5AA330073A4FF /* LaunchImage.png */; };
+		567D6F3618B5AC130073A4FF /* LaunchImageR4.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F3518B5AC130073A4FF /* LaunchImageR4.png */; };
+		567D6F4018B5B55E0073A4FF /* CustomCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F3F18B5B55E0073A4FF /* CustomCellBackground.png */; };
+		567D6F4218B5B7F10073A4FF /* CustomMainCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4118B5B7F10073A4FF /* CustomMainCellBackground.png */; };
+		567D6F4418B5B8510073A4FF /* CustomMainCellBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4318B5B8510073A4FF /* CustomMainCellBackground2.png */; };
+		567D6F4618B5CC4C0073A4FF /* Teen.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4518B5CC4C0073A4FF /* Teen.png */; };
+		567D6F4A18B5CC640073A4FF /* E10.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4718B5CC640073A4FF /* E10.png */; };
+		567D6F4B18B5CC640073A4FF /* Everyone.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4818B5CC640073A4FF /* Everyone.png */; };
+		567D6F4C18B5CC640073A4FF /* Mature.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F4918B5CC640073A4FF /* Mature.png */; };
+		567D6F4F18B5D4820073A4FF /* CustomStatsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 567D6F4E18B5D4820073A4FF /* CustomStatsCell.m */; };
+		567D6F5118B5DC2E0073A4FF /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 567D6F5018B5DC2E0073A4FF /* Star.png */; };
+		56B93D6418B9A72E0039789C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC2518A9F468006F40AD /* Main.storyboard */; };
+		56D0EC1418A9F468006F40AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC1318A9F468006F40AD /* Foundation.framework */; };
+		56D0EC1618A9F468006F40AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC1518A9F468006F40AD /* CoreGraphics.framework */; };
+		56D0EC1818A9F468006F40AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC1718A9F468006F40AD /* UIKit.framework */; };
+		56D0EC1E18A9F468006F40AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC1C18A9F468006F40AD /* InfoPlist.strings */; };
+		56D0EC2018A9F468006F40AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC1F18A9F468006F40AD /* main.m */; };
+		56D0EC2418A9F468006F40AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC2318A9F468006F40AD /* AppDelegate.m */; };
+		56D0EC2A18A9F468006F40AD /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC2918A9F468006F40AD /* MainTableViewController.m */; };
+		56D0EC2F18A9F469006F40AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC2E18A9F469006F40AD /* Images.xcassets */; };
+		56D0EC3618A9F469006F40AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC3518A9F469006F40AD /* XCTest.framework */; };
+		56D0EC3718A9F469006F40AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC1318A9F468006F40AD /* Foundation.framework */; };
+		56D0EC3818A9F469006F40AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D0EC1718A9F468006F40AD /* UIKit.framework */; };
+		56D0EC4018A9F469006F40AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC3E18A9F469006F40AD /* InfoPlist.strings */; };
+		56D0EC4218A9F469006F40AD /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC4118A9F469006F40AD /* testAppTests.m */; };
+		56D0EC5318A9FA4E006F40AD /* GameDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC5218A9FA4E006F40AD /* GameDetailViewController.m */; };
+		56D0EC6518AB64CC006F40AD /* GamesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D0EC6418AB64CC006F40AD /* GamesCell.m */; };
+		56D0EC6A18ABFF9A006F40AD /* sonicthehedgehog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6918ABFF9A006F40AD /* sonicthehedgehog.jpg */; };
+		56D0EC7318AC0359006F40AD /* sonic&knuckles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6B18AC0359006F40AD /* sonic&knuckles.jpg */; };
+		56D0EC7418AC0359006F40AD /* sonicandtheblackknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6C18AC0359006F40AD /* sonicandtheblackknight.jpg */; };
+		56D0EC7518AC0359006F40AD /* soniccolors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6D18AC0359006F40AD /* soniccolors.jpg */; };
+		56D0EC7618AC0359006F40AD /* sonicgenerations.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6E18AC0359006F40AD /* sonicgenerations.jpg */; };
+		56D0EC7718AC0359006F40AD /* soniclostworld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC6F18AC0359006F40AD /* soniclostworld.jpg */; };
+		56D0EC7818AC0359006F40AD /* sonicthehedgehog(2006).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7018AC0359006F40AD /* sonicthehedgehog(2006).jpg */; };
+		56D0EC7918AC0359006F40AD /* sonicthehedgehog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7118AC0359006F40AD /* sonicthehedgehog2.jpg */; };
+		56D0EC7A18AC0359006F40AD /* sonicunleashed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7218AC0359006F40AD /* sonicunleashed.jpg */; };
+		56D0EC8518AC076F006F40AD /* bravelydefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7D18AC076F006F40AD /* bravelydefault.jpg */; };
+		56D0EC8618AC076F006F40AD /* crysis3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7E18AC076F006F40AD /* crysis3.jpg */; };
+		56D0EC8718AC076F006F40AD /* diablo3reaperofsouls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC7F18AC076F006F40AD /* diablo3reaperofsouls.jpg */; };
+		56D0EC8818AC076F006F40AD /* finalfantasyxiii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC8018AC076F006F40AD /* finalfantasyxiii.jpg */; };
+		56D0EC8918AC076F006F40AD /* grandtheftauto5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC8118AC076F006F40AD /* grandtheftauto5.jpg */; };
+		56D0EC8A18AC076F006F40AD /* monsterhunter3ultimate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC8218AC076F006F40AD /* monsterhunter3ultimate.jpg */; };
+		56D0EC8B18AC076F006F40AD /* ninokuni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC8318AC076F006F40AD /* ninokuni.jpg */; };
+		56D0EC8C18AC076F006F40AD /* tombraider(2013).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56D0EC8418AC076F006F40AD /* tombraider(2013).jpg */; };
+		56F5793A18AD3A8C00E5C32A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F5793918AD3A8C00E5C32A /* Default-568h@2x.png */; };
+		56F5794118B28DE900E5C32A /* GameClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F5794018B28DE900E5C32A /* GameClass.m */; };
+		56F5794718B2B3E500E5C32A /* GameDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F5794618B2B3E500E5C32A /* GameDetails.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D0EC3918A9F469006F40AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D0EC0818A9F468006F40AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D0EC0F18A9F468006F40AD;
+			remoteInfo = testApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567D6F2C18B42DF80073A4FF /* MyListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListCell.h; sourceTree = "<group>"; };
+		567D6F2D18B42DF80073A4FF /* MyListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListCell.m; sourceTree = "<group>"; };
+		567D6F2F18B5AA330073A4FF /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = Images.xcassets/LaunchImage.launchimage/LaunchImage.png; sourceTree = "<group>"; };
+		567D6F3518B5AC130073A4FF /* LaunchImageR4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImageR4.png; path = Images.xcassets/LaunchImage.launchimage/LaunchImageR4.png; sourceTree = "<group>"; };
+		567D6F3F18B5B55E0073A4FF /* CustomCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CustomCellBackground.png; path = Images.xcassets/CustomCellBackground.png; sourceTree = "<group>"; };
+		567D6F4118B5B7F10073A4FF /* CustomMainCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CustomMainCellBackground.png; path = Images.xcassets/CustomMainCellBackground.png; sourceTree = "<group>"; };
+		567D6F4318B5B8510073A4FF /* CustomMainCellBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CustomMainCellBackground2.png; path = Images.xcassets/CustomMainCellBackground2.png; sourceTree = "<group>"; };
+		567D6F4518B5CC4C0073A4FF /* Teen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Teen.png; path = Images.xcassets/Teen.png; sourceTree = "<group>"; };
+		567D6F4718B5CC640073A4FF /* E10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = E10.png; path = Images.xcassets/E10.png; sourceTree = "<group>"; };
+		567D6F4818B5CC640073A4FF /* Everyone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Everyone.png; path = Images.xcassets/Everyone.png; sourceTree = "<group>"; };
+		567D6F4918B5CC640073A4FF /* Mature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mature.png; path = Images.xcassets/Mature.png; sourceTree = "<group>"; };
+		567D6F4D18B5D4820073A4FF /* CustomStatsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStatsCell.h; sourceTree = "<group>"; };
+		567D6F4E18B5D4820073A4FF /* CustomStatsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStatsCell.m; sourceTree = "<group>"; };
+		567D6F5018B5DC2E0073A4FF /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Star.png; path = Images.xcassets/Star.png; sourceTree = "<group>"; };
+		56B93D6618B9A7DB0039789C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		56D0EC1018A9F468006F40AD /* Video Game Rater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Game Rater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D0EC1318A9F468006F40AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56D0EC1518A9F468006F40AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56D0EC1718A9F468006F40AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56D0EC1B18A9F468006F40AD /* Video Game Rater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Game Rater-Info.plist"; sourceTree = "<group>"; };
+		56D0EC1D18A9F468006F40AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D0EC1F18A9F468006F40AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56D0EC2118A9F468006F40AD /* Video Game Rater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video Game Rater-Prefix.pch"; sourceTree = "<group>"; };
+		56D0EC2218A9F468006F40AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56D0EC2318A9F468006F40AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56D0EC2618A9F468006F40AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56D0EC2818A9F468006F40AD /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		56D0EC2918A9F468006F40AD /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		56D0EC2E18A9F469006F40AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56D0EC3418A9F469006F40AD /* Video Game RaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video Game RaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D0EC3518A9F469006F40AD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56D0EC3D18A9F469006F40AD /* Video Game RaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Game RaterTests-Info.plist"; sourceTree = "<group>"; };
+		56D0EC3F18A9F469006F40AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D0EC4118A9F469006F40AD /* testAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppTests.m; sourceTree = "<group>"; };
+		56D0EC5118A9FA4E006F40AD /* GameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetailViewController.h; sourceTree = "<group>"; };
+		56D0EC5218A9FA4E006F40AD /* GameDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDetailViewController.m; sourceTree = "<group>"; };
+		56D0EC6318AB64CC006F40AD /* GamesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesCell.h; sourceTree = "<group>"; };
+		56D0EC6418AB64CC006F40AD /* GamesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesCell.m; sourceTree = "<group>"; };
+		56D0EC6918ABFF9A006F40AD /* sonicthehedgehog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonicthehedgehog.jpg; path = Images.xcassets/sonicthehedgehog.jpg; sourceTree = "<group>"; };
+		56D0EC6B18AC0359006F40AD /* sonic&knuckles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sonic&knuckles.jpg"; path = "Images.xcassets/sonic&knuckles.jpg"; sourceTree = "<group>"; };
+		56D0EC6C18AC0359006F40AD /* sonicandtheblackknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonicandtheblackknight.jpg; path = Images.xcassets/sonicandtheblackknight.jpg; sourceTree = "<group>"; };
+		56D0EC6D18AC0359006F40AD /* soniccolors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = soniccolors.jpg; path = Images.xcassets/soniccolors.jpg; sourceTree = "<group>"; };
+		56D0EC6E18AC0359006F40AD /* sonicgenerations.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonicgenerations.jpg; path = Images.xcassets/sonicgenerations.jpg; sourceTree = "<group>"; };
+		56D0EC6F18AC0359006F40AD /* soniclostworld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = soniclostworld.jpg; path = Images.xcassets/soniclostworld.jpg; sourceTree = "<group>"; };
+		56D0EC7018AC0359006F40AD /* sonicthehedgehog(2006).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sonicthehedgehog(2006).jpg"; path = "Images.xcassets/sonicthehedgehog(2006).jpg"; sourceTree = "<group>"; };
+		56D0EC7118AC0359006F40AD /* sonicthehedgehog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonicthehedgehog2.jpg; path = Images.xcassets/sonicthehedgehog2.jpg; sourceTree = "<group>"; };
+		56D0EC7218AC0359006F40AD /* sonicunleashed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sonicunleashed.jpg; path = Images.xcassets/sonicunleashed.jpg; sourceTree = "<group>"; };
+		56D0EC7D18AC076F006F40AD /* bravelydefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bravelydefault.jpg; path = Images.xcassets/bravelydefault.jpg; sourceTree = "<group>"; };
+		56D0EC7E18AC076F006F40AD /* crysis3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crysis3.jpg; path = Images.xcassets/crysis3.jpg; sourceTree = "<group>"; };
+		56D0EC7F18AC076F006F40AD /* diablo3reaperofsouls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = diablo3reaperofsouls.jpg; path = Images.xcassets/diablo3reaperofsouls.jpg; sourceTree = "<group>"; };
+		56D0EC8018AC076F006F40AD /* finalfantasyxiii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = finalfantasyxiii.jpg; path = Images.xcassets/finalfantasyxiii.jpg; sourceTree = "<group>"; };
+		56D0EC8118AC076F006F40AD /* grandtheftauto5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grandtheftauto5.jpg; path = Images.xcassets/grandtheftauto5.jpg; sourceTree = "<group>"; };
+		56D0EC8218AC076F006F40AD /* monsterhunter3ultimate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = monsterhunter3ultimate.jpg; path = Images.xcassets/monsterhunter3ultimate.jpg; sourceTree = "<group>"; };
+		56D0EC8318AC076F006F40AD /* ninokuni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ninokuni.jpg; path = Images.xcassets/ninokuni.jpg; sourceTree = "<group>"; };
+		56D0EC8418AC076F006F40AD /* tombraider(2013).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tombraider(2013).jpg"; path = "Images.xcassets/tombraider(2013).jpg"; sourceTree = "<group>"; };
+		56F5793918AD3A8C00E5C32A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		56F5793F18B28DE900E5C32A /* GameClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameClass.h; sourceTree = "<group>"; };
+		56F5794018B28DE900E5C32A /* GameClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameClass.m; sourceTree = "<group>"; };
+		56F5794518B2B3E500E5C32A /* GameDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetails.h; sourceTree = "<group>"; };
+		56F5794618B2B3E500E5C32A /* GameDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDetails.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D0EC0D18A9F468006F40AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D0EC1618A9F468006F40AD /* CoreGraphics.framework in Frameworks */,
+				56D0EC1818A9F468006F40AD /* UIKit.framework in Frameworks */,
+				56D0EC1418A9F468006F40AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D0EC3118A9F469006F40AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D0EC3618A9F469006F40AD /* XCTest.framework in Frameworks */,
+				56D0EC3818A9F469006F40AD /* UIKit.framework in Frameworks */,
+				56D0EC3718A9F469006F40AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565556CB18ACA6B5000E5852 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				567D6F5018B5DC2E0073A4FF /* Star.png */,
+				56D0EC2E18A9F469006F40AD /* Images.xcassets */,
+				567D6F4718B5CC640073A4FF /* E10.png */,
+				567D6F4818B5CC640073A4FF /* Everyone.png */,
+				567D6F4918B5CC640073A4FF /* Mature.png */,
+				567D6F4518B5CC4C0073A4FF /* Teen.png */,
+				567D6F4318B5B8510073A4FF /* CustomMainCellBackground2.png */,
+				567D6F4118B5B7F10073A4FF /* CustomMainCellBackground.png */,
+				567D6F3F18B5B55E0073A4FF /* CustomCellBackground.png */,
+				567D6F3518B5AC130073A4FF /* LaunchImageR4.png */,
+				567D6F2F18B5AA330073A4FF /* LaunchImage.png */,
+				56F5793918AD3A8C00E5C32A /* Default-568h@2x.png */,
+				56D0EC7D18AC076F006F40AD /* bravelydefault.jpg */,
+				56D0EC7E18AC076F006F40AD /* crysis3.jpg */,
+				56D0EC7F18AC076F006F40AD /* diablo3reaperofsouls.jpg */,
+				56D0EC8018AC076F006F40AD /* finalfantasyxiii.jpg */,
+				56D0EC8118AC076F006F40AD /* grandtheftauto5.jpg */,
+				56D0EC8218AC076F006F40AD /* monsterhunter3ultimate.jpg */,
+				56D0EC8318AC076F006F40AD /* ninokuni.jpg */,
+				56D0EC8418AC076F006F40AD /* tombraider(2013).jpg */,
+				56D0EC6B18AC0359006F40AD /* sonic&knuckles.jpg */,
+				56D0EC6C18AC0359006F40AD /* sonicandtheblackknight.jpg */,
+				56D0EC6D18AC0359006F40AD /* soniccolors.jpg */,
+				56D0EC6E18AC0359006F40AD /* sonicgenerations.jpg */,
+				56D0EC6F18AC0359006F40AD /* soniclostworld.jpg */,
+				56D0EC7018AC0359006F40AD /* sonicthehedgehog(2006).jpg */,
+				56D0EC7118AC0359006F40AD /* sonicthehedgehog2.jpg */,
+				56D0EC7218AC0359006F40AD /* sonicunleashed.jpg */,
+				56D0EC6918ABFF9A006F40AD /* sonicthehedgehog.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		565556CC18ACA6C6000E5852 /* View Controller Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC5118A9FA4E006F40AD /* GameDetailViewController.h */,
+				56D0EC5218A9FA4E006F40AD /* GameDetailViewController.m */,
+				56D0EC2818A9F468006F40AD /* MainTableViewController.h */,
+				56D0EC2918A9F468006F40AD /* MainTableViewController.m */,
+				56F5793F18B28DE900E5C32A /* GameClass.h */,
+				56F5794018B28DE900E5C32A /* GameClass.m */,
+				56F5794518B2B3E500E5C32A /* GameDetails.h */,
+				56F5794618B2B3E500E5C32A /* GameDetails.m */,
+			);
+			name = "View Controller Files";
+			sourceTree = "<group>";
+		};
+		565556CD18ACA6F8000E5852 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC6318AB64CC006F40AD /* GamesCell.h */,
+				56D0EC6418AB64CC006F40AD /* GamesCell.m */,
+				567D6F2C18B42DF80073A4FF /* MyListCell.h */,
+				567D6F2D18B42DF80073A4FF /* MyListCell.m */,
+				567D6F4D18B5D4820073A4FF /* CustomStatsCell.h */,
+				567D6F4E18B5D4820073A4FF /* CustomStatsCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		565556CE18ACA70F000E5852 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC2218A9F468006F40AD /* AppDelegate.h */,
+				56D0EC2318A9F468006F40AD /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		56D0EC0718A9F468006F40AD = {
+			isa = PBXGroup;
+			children = (
+				56D0EC1918A9F468006F40AD /* testApp */,
+				56D0EC3B18A9F469006F40AD /* testAppTests */,
+				56D0EC1218A9F468006F40AD /* Frameworks */,
+				56D0EC1118A9F468006F40AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56D0EC1118A9F468006F40AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC1018A9F468006F40AD /* Video Game Rater.app */,
+				56D0EC3418A9F469006F40AD /* Video Game RaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D0EC1218A9F468006F40AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC1318A9F468006F40AD /* Foundation.framework */,
+				56D0EC1518A9F468006F40AD /* CoreGraphics.framework */,
+				56D0EC1718A9F468006F40AD /* UIKit.framework */,
+				56D0EC3518A9F469006F40AD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D0EC1918A9F468006F40AD /* testApp */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC2518A9F468006F40AD /* Main.storyboard */,
+				565556CE18ACA70F000E5852 /* Application */,
+				565556CD18ACA6F8000E5852 /* Custom Cell */,
+				565556CB18ACA6B5000E5852 /* Images */,
+				56D0EC1A18A9F468006F40AD /* Supporting Files */,
+				565556CC18ACA6C6000E5852 /* View Controller Files */,
+			);
+			path = testApp;
+			sourceTree = "<group>";
+		};
+		56D0EC1A18A9F468006F40AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC1B18A9F468006F40AD /* Video Game Rater-Info.plist */,
+				56D0EC1C18A9F468006F40AD /* InfoPlist.strings */,
+				56D0EC1F18A9F468006F40AD /* main.m */,
+				56D0EC2118A9F468006F40AD /* Video Game Rater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56D0EC3B18A9F469006F40AD /* testAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC4118A9F469006F40AD /* testAppTests.m */,
+				56D0EC3C18A9F469006F40AD /* Supporting Files */,
+			);
+			path = testAppTests;
+			sourceTree = "<group>";
+		};
+		56D0EC3C18A9F469006F40AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D0EC3D18A9F469006F40AD /* Video Game RaterTests-Info.plist */,
+				56D0EC3E18A9F469006F40AD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D0EC0F18A9F468006F40AD /* Video Game Rater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D0EC4518A9F469006F40AD /* Build configuration list for PBXNativeTarget "Video Game Rater" */;
+			buildPhases = (
+				56D0EC0C18A9F468006F40AD /* Sources */,
+				56D0EC0D18A9F468006F40AD /* Frameworks */,
+				56D0EC0E18A9F468006F40AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Game Rater";
+			productName = testApp;
+			productReference = 56D0EC1018A9F468006F40AD /* Video Game Rater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D0EC3318A9F469006F40AD /* Video Game RaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D0EC4818A9F469006F40AD /* Build configuration list for PBXNativeTarget "Video Game RaterTests" */;
+			buildPhases = (
+				56D0EC3018A9F469006F40AD /* Sources */,
+				56D0EC3118A9F469006F40AD /* Frameworks */,
+				56D0EC3218A9F469006F40AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D0EC3A18A9F469006F40AD /* PBXTargetDependency */,
+			);
+			name = "Video Game RaterTests";
+			productName = testAppTests;
+			productReference = 56D0EC3418A9F469006F40AD /* Video Game RaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D0EC0818A9F468006F40AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Full Sail";
+				TargetAttributes = {
+					56D0EC3318A9F469006F40AD = {
+						TestTargetID = 56D0EC0F18A9F468006F40AD;
+					};
+				};
+			};
+			buildConfigurationList = 56D0EC0B18A9F468006F40AD /* Build configuration list for PBXProject "Video Game Rater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D0EC0718A9F468006F40AD;
+			productRefGroup = 56D0EC1118A9F468006F40AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D0EC0F18A9F468006F40AD /* Video Game Rater */,
+				56D0EC3318A9F469006F40AD /* Video Game RaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D0EC0E18A9F468006F40AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B93D6418B9A72E0039789C /* Main.storyboard in Resources */,
+				567D6F5118B5DC2E0073A4FF /* Star.png in Resources */,
+				56D0EC7818AC0359006F40AD /* sonicthehedgehog(2006).jpg in Resources */,
+				56D0EC7418AC0359006F40AD /* sonicandtheblackknight.jpg in Resources */,
+				56D0EC7918AC0359006F40AD /* sonicthehedgehog2.jpg in Resources */,
+				56D0EC2F18A9F469006F40AD /* Images.xcassets in Resources */,
+				56D0EC8818AC076F006F40AD /* finalfantasyxiii.jpg in Resources */,
+				56D0EC8718AC076F006F40AD /* diablo3reaperofsouls.jpg in Resources */,
+				567D6F4018B5B55E0073A4FF /* CustomCellBackground.png in Resources */,
+				567D6F4218B5B7F10073A4FF /* CustomMainCellBackground.png in Resources */,
+				56D0EC1E18A9F468006F40AD /* InfoPlist.strings in Resources */,
+				56D0EC8A18AC076F006F40AD /* monsterhunter3ultimate.jpg in Resources */,
+				567D6F3118B5AA330073A4FF /* LaunchImage.png in Resources */,
+				567D6F4B18B5CC640073A4FF /* Everyone.png in Resources */,
+				567D6F3618B5AC130073A4FF /* LaunchImageR4.png in Resources */,
+				56D0EC7518AC0359006F40AD /* soniccolors.jpg in Resources */,
+				567D6F4C18B5CC640073A4FF /* Mature.png in Resources */,
+				56D0EC7318AC0359006F40AD /* sonic&knuckles.jpg in Resources */,
+				567D6F4418B5B8510073A4FF /* CustomMainCellBackground2.png in Resources */,
+				56D0EC8B18AC076F006F40AD /* ninokuni.jpg in Resources */,
+				56D0EC7618AC0359006F40AD /* sonicgenerations.jpg in Resources */,
+				56D0EC8618AC076F006F40AD /* crysis3.jpg in Resources */,
+				56D0EC7A18AC0359006F40AD /* sonicunleashed.jpg in Resources */,
+				567D6F4A18B5CC640073A4FF /* E10.png in Resources */,
+				56D0EC8918AC076F006F40AD /* grandtheftauto5.jpg in Resources */,
+				56F5793A18AD3A8C00E5C32A /* Default-568h@2x.png in Resources */,
+				56D0EC7718AC0359006F40AD /* soniclostworld.jpg in Resources */,
+				56D0EC6A18ABFF9A006F40AD /* sonicthehedgehog.jpg in Resources */,
+				567D6F4618B5CC4C0073A4FF /* Teen.png in Resources */,
+				56D0EC8518AC076F006F40AD /* bravelydefault.jpg in Resources */,
+				56D0EC8C18AC076F006F40AD /* tombraider(2013).jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D0EC3218A9F469006F40AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D0EC4018A9F469006F40AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D0EC0C18A9F468006F40AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F5794718B2B3E500E5C32A /* GameDetails.m in Sources */,
+				567D6F4F18B5D4820073A4FF /* CustomStatsCell.m in Sources */,
+				56D0EC2418A9F468006F40AD /* AppDelegate.m in Sources */,
+				56D0EC2A18A9F468006F40AD /* MainTableViewController.m in Sources */,
+				56D0EC5318A9FA4E006F40AD /* GameDetailViewController.m in Sources */,
+				56D0EC2018A9F468006F40AD /* main.m in Sources */,
+				56F5794118B28DE900E5C32A /* GameClass.m in Sources */,
+				56D0EC6518AB64CC006F40AD /* GamesCell.m in Sources */,
+				567D6F2E18B42DF80073A4FF /* MyListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D0EC3018A9F469006F40AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D0EC4218A9F469006F40AD /* testAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D0EC3A18A9F469006F40AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D0EC0F18A9F468006F40AD /* Video Game Rater */;
+			targetProxy = 56D0EC3918A9F469006F40AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D0EC1C18A9F468006F40AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D0EC1D18A9F468006F40AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56D0EC2518A9F468006F40AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D0EC2618A9F468006F40AD /* Base */,
+				56B93D6618B9A7DB0039789C /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56D0EC3E18A9F469006F40AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D0EC3F18A9F469006F40AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D0EC4318A9F469006F40AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56D0EC4418A9F469006F40AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D0EC4618A9F469006F40AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testApp/Video Game Rater-Prefix.pch";
+				INFOPLIST_FILE = "testApp/Video Game Rater-Info.plist";
+				PRODUCT_NAME = "Video Game Rater";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56D0EC4718A9F469006F40AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testApp/Video Game Rater-Prefix.pch";
+				INFOPLIST_FILE = "testApp/Video Game Rater-Info.plist";
+				PRODUCT_NAME = "Video Game Rater";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56D0EC4918A9F469006F40AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testApp.app/testApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testApp/testApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testAppTests/Video Game RaterTests-Info.plist";
+				PRODUCT_NAME = "Video Game RaterTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56D0EC4A18A9F469006F40AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testApp.app/testApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testApp/testApp-Prefix.pch";
+				INFOPLIST_FILE = "testAppTests/Video Game RaterTests-Info.plist";
+				PRODUCT_NAME = "Video Game RaterTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D0EC0B18A9F468006F40AD /* Build configuration list for PBXProject "Video Game Rater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0EC4318A9F469006F40AD /* Debug */,
+				56D0EC4418A9F469006F40AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D0EC4518A9F469006F40AD /* Build configuration list for PBXNativeTarget "Video Game Rater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0EC4618A9F469006F40AD /* Debug */,
+				56D0EC4718A9F469006F40AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D0EC4818A9F469006F40AD /* Build configuration list for PBXNativeTarget "Video Game RaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D0EC4918A9F469006F40AD /* Debug */,
+				56D0EC4A18A9F469006F40AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D0EC0818A9F468006F40AD /* Project object */;
+}
